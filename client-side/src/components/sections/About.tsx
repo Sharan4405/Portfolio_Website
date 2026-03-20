@@ -15,7 +15,7 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             About <span className="gradient-text">Me</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-400 to-purple-500 rounded-full" />
         </motion.div>
 
         {/* Bio Section */}

@@ -44,13 +44,13 @@ const Experience = () => {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Work <span className="gradient-text">Experience</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-400 to-purple-500 rounded-full" />
         </motion.div>
 
         {/* Experience Timeline */}
         <div className="relative">
           {/* Timeline Line */}
-          <div className="absolute left-0 md:left-1/2 transform md:-translate-x-px top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 via-purple-500 to-blue-500 hidden md:block" />
+          <div className="absolute left-0 md:left-1/2 transform md:-translate-x-px top-0 bottom-0 w-0.5 bg-linear-to-b from-blue-500 via-purple-500 to-blue-500 hidden md:block" />
 
           {experiences.map((exp, index) => (
             <motion.div
@@ -64,7 +64,7 @@ const Experience = () => {
               }`}
             >
               {/* Timeline Dot */}
-              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-black" />
+              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-linear-to-r from-blue-500 to-purple-500 rounded-full border-4 border-black" />
 
               {/* Content Card */}
               <div className={`${index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'}`}>
@@ -79,7 +79,7 @@ const Experience = () => {
                   <ul className={`space-y-2 mb-4 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                     {exp.responsibilities.map((resp, i) => (
                       <li key={i} className="text-gray-500 text-sm flex items-start gap-2">
-                        <span className="text-blue-400 mt-1 flex-shrink-0">•</span>
+                        <span className="text-blue-400 mt-1 shrink-0">•</span>
                         <span>{resp}</span>
                       </li>
                     ))}

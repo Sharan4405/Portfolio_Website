@@ -57,7 +57,7 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="section-container bg-gradient-to-b from-black to-gray-900/50">
+    <section id="skills" className="section-container bg-linear-to-b from-black to-gray-900/50">
       <div className="section-inner">
         {/* Section Title */}
         <motion.div
@@ -73,7 +73,7 @@ const Skills = () => {
           <p className="text-gray-400 max-w-2xl mx-auto">
             Technologies and tools I use to bring ideas to life.
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mx-auto mt-6" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-400 to-purple-500 rounded-full mx-auto mt-6" />
         </motion.div>
 
         {/* Skills Grid */}
@@ -113,7 +113,7 @@ const Skills = () => {
                         whileInView={{ width: `${skill.level}%` }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.3, ease: 'easeOut' }}
-                        className="h-full bg-gradient-to-r from-blue-400 to-purple-500 rounded-full"
+                        className="h-full bg-linear-to-r from-blue-400 to-purple-500 rounded-full"
                       />
                     </div>
                   </motion.div>

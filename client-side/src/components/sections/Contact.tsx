@@ -35,7 +35,7 @@ const Contact = () => {
           <p className="text-gray-400 max-w-2xl mx-auto">
             Have a project in mind or just want to say hello? I'd love to hear from you!
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full mx-auto mt-6" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-400 to-purple-500 rounded-full mx-auto mt-6" />
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -203,7 +203,7 @@ const Contact = () => {
                 type="submit"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all"
+                className="w-full py-4 bg-linear-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all"
               >
                 Send Message
               </motion.button>

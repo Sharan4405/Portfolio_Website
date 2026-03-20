@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative w-full min-h-screen bg-black flex flex-col">
       {/* Spline 3D Animation Container */}
-      <div className="relative w-full h-[80vh] flex-shrink-0">
+      <div className="relative w-full h-[80vh] shrink-0">
         <Spline 
           scene="https://prod.spline.design/gUcrYwDRyDdz71G5/scene.splinecode"
           onLoad={() => setIsLoading(false)}

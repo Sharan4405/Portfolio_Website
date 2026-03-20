@@ -40,7 +40,7 @@ const Navbar = () => {
         className="relative max-w-6xl mx-auto"
       >
         {/* Glow Effect */}
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 rounded-2xl blur-xl" />
+        <div className="absolute -inset-0.5 bg-linear-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 rounded-2xl blur-xl" />
         
         {/* Navbar Background */}
         <nav className="relative bg-black/70 backdrop-blur-xl rounded-2xl px-4 py-2 flex items-center justify-between">
@@ -50,7 +50,7 @@ const Navbar = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex-shrink-0 group"
+            className="shrink-0 group"
           >
           </motion.a>
 
@@ -101,17 +101,17 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <motion.div
-              className="w-6 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400"
+              className="w-6 h-0.5 bg-linear-to-r from-blue-400 to-purple-400"
               animate={{ rotate: isOpen ? 45 : 0, y: isOpen ? 8 : 0 }}
               transition={{ duration: 0.3 }}
             />
             <motion.div
-              className="w-6 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400"
+              className="w-6 h-0.5 bg-linear-to-r from-blue-400 to-purple-400"
               animate={{ opacity: isOpen ? 0 : 1 }}
               transition={{ duration: 0.3 }}
             />
             <motion.div
-              className="w-6 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400"
+              className="w-6 h-0.5 bg-linear-to-r from-blue-400 to-purple-400"
               animate={{ rotate: isOpen ? -45 : 0, y: isOpen ? -8 : 0 }}
               transition={{ duration: 0.3 }}
             />
@@ -143,7 +143,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => setIsOpen(false)}
-              className="block w-full text-center mt-4 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg"
+              className="block w-full text-center mt-4 px-6 py-3 bg-linear-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg"
             >
               Let's Work
             </motion.a>
