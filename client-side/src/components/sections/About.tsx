@@ -27,20 +27,23 @@ const About = () => {
           className="max-w-4xl"
         >
           <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-            Hey! I'm Sharan, a passionate full-stack developer and{' '}
-            <span className="text-white font-semibold">B.Tech student at IIT Jodhpur</span> (Pre-final year).
-            With <span className="text-white font-semibold">1+ years</span> of experience, I specialize in
-            building scalable web applications and AI-powered solutions.
-          </p>
-          <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-            I love building products that solve real-world problems - from WhatsApp e-commerce chatbots
-            to AI agents that simplify job hunting. My work spans the entire stack, from database design
-            to intuitive user interfaces.
-          </p>
-          <p className="text-lg text-gray-300 leading-relaxed">
-            When I'm not coding, you'll find me exploring emerging technologies, working on open-source
-            projects, or contributing to the developer community at IIT Jodhpur.
-          </p>
+  Hey! I'm Sharan, a passionate full-stack developer and{' '}
+  <span className="text-white font-semibold">B.Tech student at IIT Jodhpur</span>.
+  I enjoy building impactful tech solutions by combining strong fundamentals in
+  development with a growing interest in AI and real-world problem solving.
+</p>
+
+<p className="text-lg text-gray-300 mb-6 leading-relaxed">
+  My work focuses on developing scalable and intelligent applications — from
+  conversational e-commerce systems and AI-driven job tools to high-performance
+  web platforms with optimized backend architectures and seamless user experiences.
+</p>
+
+<p className="text-lg text-gray-300 leading-relaxed">
+  Beyond coding, I’m constantly sharpening my problem-solving skills, exploring
+  system design, and building projects that push me toward becoming a high-impact
+  software engineer.
+</p>
         </motion.div>
       </div>
     </section>

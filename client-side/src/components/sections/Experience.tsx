@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: 'Software Developer Intern',
       company: 'Yashinfotech Solutions',
-      period: '2024 - Present',
+      period: 'August 2025 - October 2025',
       description: 'Working on full-stack web development projects, building scalable applications using modern technologies like React, Node.js, and cloud services.',
       responsibilities: [
         'Developed and maintained web applications using React and Node.js',
@@ -15,9 +15,9 @@ const Experience = () => {
       ],
     },
     {
-      title: 'Full Stack Developer',
-      company: 'Bhuramal Bhagirath Prasad (Freelance)',
-      period: '2024',
+      title: 'Full Stack Developer (Freelance)',
+      company: 'Bhuramal Bhagirath Prasad ',
+      period: 'December 2025 - February 2026',
       description: 'Built a complete WhatsApp e-commerce chatbot system with real-time admin dashboard for a traditional business.',
       responsibilities: [
         'Designed and developed WhatsApp chatbot using WhatsApp Business API',

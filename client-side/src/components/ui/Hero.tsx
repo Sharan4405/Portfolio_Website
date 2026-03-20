@@ -28,17 +28,17 @@ export default function Hero() {
       {/* CTA Buttons - Below Animation */}
       {!isLoading && (
         <motion.div
-          className="w-full flex flex-col items-center justify-center bg-black"
+          className="w-full py-4 flex flex-col items-center justify-center bg-black"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <motion.a
               href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-primary text-center cursor-pointer"
+              className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 text-center cursor-pointer"
             >
               View My Work
             </motion.a>
@@ -46,7 +46,7 @@ export default function Hero() {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-secondary text-center cursor-pointer"
+              className="px-6 py-3 bg-transparent text-white font-semibold rounded-lg border-2 border-white hover:bg-blue-400/15 hover:border-blue-400 transition-all duration-300 text-center cursor-pointer"
             >
               Get in Touch
             </motion.a>
@@ -54,11 +54,11 @@ export default function Hero() {
 
           {/* Scroll Indicator */}
           <motion.div
-            className="mt-4"
+            className="mt-3"
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2.5, repeat: Infinity }}
           >
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
               <path d="M12 5v14M19 12l-7 7-7-7" />
             </svg>
           </motion.div>
