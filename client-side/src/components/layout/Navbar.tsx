@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-blue-500/20 rounded-2xl blur-xl" />
         
         {/* Navbar Background */}
-        <nav className="relative bg-black/70 backdrop-blur-xl rounded-2xl px-6 py-4 flex items-center justify-between">
+        <nav className="relative bg-black/70 backdrop-blur-xl rounded-2xl px-4 py-2 flex items-center justify-between">
           {/* Logo */}
           <motion.a
             href="#home"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 variants={linkVariants}
                 initial="hidden"
                 animate="visible"
-                className="relative px-4 py-2 text-gray-400 hover:text-white transition-all duration-300 font-medium text- border border-transparent hover:border-white/30 rounded-lg"
+                className="relative px-4 py-2 text-gray-400 hover:text-white transition-all duration-300 font-medium text-15px border border-transparent hover:border-white/30 rounded-lg"
               >
                 {item.name}
               </motion.a>
@@ -85,7 +85,7 @@ const Navbar = () => {
               className="relative group"
             >
               <span className="absolute -inset-0.5 bg-linear-to-r from-blue-500 to-purple-500 rounded-lg opacity-70 blur group-hover:opacity-100 transition-opacity duration-300" />
-              <span className="relative block px-6 py-2.5 bg-linear-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg text-sm">
+              <span className="relative block px-6 py-2.5 bg-linear-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg text-lg">
                 Let's Work
               </span>
             </motion.a>

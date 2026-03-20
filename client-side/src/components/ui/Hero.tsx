@@ -54,7 +54,7 @@ export default function Hero() {
 
           {/* Scroll Indicator */}
           <motion.div
-            className="mt-3"
+            className="mt-5"
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2.5, repeat: Infinity }}
           >

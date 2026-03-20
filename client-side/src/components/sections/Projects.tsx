@@ -5,38 +5,38 @@ const Projects = () => {
     {
       title: 'JarSafari',
       description: 'A web application project showcasing modern development practices and user-centric design.',
-      tags: ['React', 'JavaScript', 'CSS', 'Web Development'],
-      githubUrl: 'https://github.com/Sharan4405',
+      tags: ['React-Native', 'JavaScript', 'Tailwind-CSS', 'App Development'],
+      githubUrl: 'https://github.com/Sharan4405/JARSafari',
     },
     {
       title: 'ICS Project',
       description: 'Academic project developed as part of IIT Jodhpur coursework, demonstrating core computer science concepts.',
-      tags: ['Python', 'Algorithms', 'Data Structures'],
-      githubUrl: 'https://github.com/Sharan4405',
+      tags: ['C/C++', 'Algorithms', 'Data Structures'],
+      githubUrl: 'https://github.com/Sharan4405/ICS_EquationSolver',
     },
     {
       title: 'Comic Studies Lab - IIT Jodhpur',
       description: 'Official website for the Comic Studies Lab at IIT Jodhpur, showcasing research, publications, and team information.',
-      tags: ['JavaScript', 'React', 'CSS', 'Responsive Design'],
-      githubUrl: 'https://github.com/Sharan4405',
+      tags: ['JavaScript', 'React', 'CSS', 'JavaScript', 'Express.js','Node.js', 'MongoDB', 'Responsive Design'],
+      githubUrl: 'https://github.com/Sharan4405/Comic_Studies_Lab',
     },
     {
       title: 'Resume Parser',
       description: 'An intelligent resume parsing tool that extracts and structures information from resumes using NLP techniques.',
-      tags: ['Python', 'NLP', 'Machine Learning', 'Text Processing'],
-      githubUrl: 'https://github.com/Sharan4405',
+      tags: ['Python', 'NLP', 'Machine Learning', 'Text Processing', 'Node.js', 'PostgreSQL'],
+      githubUrl: 'https://github.com/Sharan4405/Resume_Parser',
     },
     {
       title: 'Backend Learning',
       description: 'A comprehensive backend development learning project covering Node.js, Express, databases, and API development.',
       tags: ['Node.js', 'Express', 'MongoDB', 'REST APIs'],
-      githubUrl: 'https://github.com/Sharan4405/Backend_Project',
+      githubUrl: 'https://github.com/Sharan4405/Backend_learning',
     },
     {
       title: 'JavaScript Learning',
       description: 'Practice projects and exercises for mastering JavaScript fundamentals and advanced concepts.',
       tags: ['JavaScript', 'ES6+', 'DOM', 'Async Programming'],
-      githubUrl: 'https://github.com/Sharan4405',
+      githubUrl: 'https://github.com/Sharan4405/JS_Learning',
     },
   ];
 
